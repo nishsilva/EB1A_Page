@@ -8,7 +8,7 @@
     body {
       font-family: 'Segoe UI', Roboto, Arial, sans-serif;
       margin: 0;
-      padding: 0 20px 0 40px; /* add left padding */
+      padding: 0 20px 0 40px; /* adds left margin */
       line-height: 1.6;
       color: #e6edf3;
       background-color: #0d1117;
@@ -17,8 +17,8 @@
     header {
       background-color: #002b5c;
       color: white;
-      text-align: left; /* align text with new left margin */
-      padding: 60px 20px 60px 40px; /* extra left padding */
+      text-align: left;
+      padding: 60px 20px 60px 40px;
       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
     }
 
@@ -35,11 +35,12 @@
 
     section {
       max-width: 900px;
-      margin: 40px 0 40px 0; /* no auto-centering */
-      background: #161b22;
-      padding: 40px;
-      border-radius: 10px;
-      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.7);
+      margin: 40px 0;
+      padding: 0 0 20px 0;
+      background: none;        /* no background box */
+      border-radius: 0;        /* remove rounded corners */
+      box-shadow: none;        /* remove shadow */
+      border: none;            /* remove border */
     }
 
     h2 {
@@ -78,7 +79,7 @@
       color: #9ba3b4;
       padding: 30px 10px 30px 40px;
       font-size: 0.9em;
-      background: #161b22;
+      background: none; /* no box */
       margin-top: 60px;
       border-top: 1px solid #30363d;
     }
@@ -101,7 +102,7 @@
   </section>
 
   <section id="value">
-    <h2>What Makes This Petition Valuable</h2>
+    <h2>What Makes This Template Valuable</h2>
     <ul>
       <li>Self-petitioned without attorney fees</li>
       <li>Approved without any Requests for Evidence (RFE)</li>
@@ -113,7 +114,7 @@
   <section id="includes">
     <h2>What's Included</h2>
     <p>
-      A complete, anonymized successful EB1A petition that shows exactly how to structure your application, 
+      A complete, anonymized PDF of a successful EB1A petition that shows exactly how to structure your application, 
       address key requirements, and organize supporting evidence for US Permanent Residency.
     </p>
   </section>
@@ -139,6 +140,10 @@
     </p>
     <a href="https://oceanographer.gumroad.com/l/bqhex" class="btn">Purchase for $49.99</a>
   </section>
+
+  <footer>
+    © 2025 EB-1A Petition Success Toolkit
+  </footer>
 
 </body>
 </html>
